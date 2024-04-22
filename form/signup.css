@@ -1,0 +1,253 @@
+/* body style */
+body {
+  margin: 0 auto;
+}
+
+/* wrapper style */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* sign-up wrapper style */
+.signup-wrapper {
+  padding: 0 10em;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* form style */
+.form {
+  height: 100%;
+  width: 400px;
+  max-width: 80%;
+  padding: 40px;
+  background: #FCFBF7;
+  color: #180f0f;
+  box-shadow: 0 0.9375rem 1.5625rem rgba(0, 0, 0, 0.5);
+}
+
+/* form-image style */
+.form-image img {
+  height: 1500px;
+  width: 400px;
+}
+
+/* heading style */
+h2 {
+  color: #00755E;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -3px;
+  text-align: center;
+}
+
+/* label style */
+label{
+  display: inline-block;
+  width: 110%;
+  text-align: left;
+  color: var(--Greys-1500, #020202);
+  font-size: 12px;
+}
+
+/* input style */
+.input-1, .input-2, .input-3, .input-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+input {
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 15px 15px 15px 15px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  width: 100%;
+  height: 20%;
+}
+
+.dateOfBirth, .email {
+  margin-top: 10px;
+  border-radius: 4px;
+  margin-bottom: 55px;
+  font-size: 15px;
+  height: 40px;
+}
+
+.vitals {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.vital-item {
+  flex: 1;
+  margin-right: 10px;
+}
+
+/* password toggle style */
+input:hover{
+  border-color: gray;
+}
+
+.input-2 {
+  position: relative;
+}
+
+.password,
+.confirmPassword {
+  position: relative;
+}
+
+.password i,
+.confirmPassword i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+input[type="password"] {
+  padding-right: 30px; 
+}
+
+.far.fa-eye-slash, .fa-eye {
+  color: red;
+}
+
+/* account-container style */
+.account-container {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/* signup button */
+.btn-signup {
+  text-align: center;
+  margin-top: 0.9375rem;
+  height: 3rem;
+  display: flex;
+  margin: 0.1rem auto ; 
+}
+
+.btn-signup button[type="submit"] {
+  width: 100%;
+  height: 70%;
+  margin: auto 0.1 auto 1px;
+  border: 0.0625rem solid gray;
+  border-radius: 0.5rem;
+  color: #ffffff;   
+  background: var(--Primary-800, #0390A0);
+}
+
+/* Login-link style */
+a {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+/* horizontal style */
+.horizontal-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.horizontal1,
+.horizontal2 {
+  width: 150px;
+}
+
+.horizontal-container div {
+  margin: 0 15px;
+  color: white;
+}
+
+.horizontal {
+  position: relative;
+  z-index: 1;
+  color: #000000;
+  padding: 5px 10px;
+}
+
+.horizontal-container div p {
+  margin: 0;
+}
+
+/* button container style */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.btn1,
+.btn2 {
+  width: 15rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: center;
+  margin: 0.125rem 0;
+  border: 0.0625rem solid gray;
+  border-radius: 0.5rem;
+  font-size: 11px;
+}
+
+.btn1 img, .btn2 img {
+  width: 20px;
+  height: 20px;
+}
+
+.btn1 p, .btn2 p {
+  margin-left: 8px;
+}
+
+.btn1 p {
+  color: #1976D2;
+}
+
+/* footer style */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1.25rem;
+  background: var(--Primary-900, #007A87);
+}
+
+.footer-message {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.footer-message a {
+  color: rgba(128, 128, 128, 0.882); 
+}
+
+.footer-message a:hover {
+  color: rgba(128, 128, 128, 0.882); 
+}
+
