@@ -1,18 +1,106 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh; /* This ensures the image is vertically centered */
-    margin: 0;
+    height: 100vh;
+    margin-top: 4px;
 }
 
+/* profile image style */
 .profile-img {
     text-align: center;
 }
 
 .profile-img img {
-    max-width: 100%;
-    height: auto;
+     border-radius: 50%;
+}
+
+/* h1 style */
+h1 {
+  font-size: medium;
+  text-align: center;
+}
+
+h2 {
+  font-size: small;
+  text-align: center;
+}
+
+p {
+color: var(--Greys-1100, #3E3C3C);
+text-align: center;
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.5px;
+}
+
+/* consult type style */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    flex: 1;
+    margin: 0 10px;
+}
+
+/* Optional: Style the buttons */
+.btn button {
+  width: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  height: 40px;
+  font-size: 11px;
+}
+
+.btn button.video {
+  background: var(--Primary-900, #007A87);
+  color: #FFFFFF;
+}
+
+.btn button.chat {
+  background: var(--Greys-600, #C1BFBF);
+  color: #FFFFFF;
+}
+
+.btn button.audio {
+  background: var(--Greys-600, #C1BFBF);
+  color: #FFFFFF;
+}
+
+.selectTime {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* .calendar-container style */
+.calendar {
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.calendar table {
+  border-collapse: collapse;
+  width: 350px;
+}
+
+.calendar th, .calendar td {
+  padding: 10px;
+  text-align: center;
+}
+
+.weekend {
+    color: #03A076;
 }
 
 /* footer style */
@@ -40,4 +128,9 @@ footer {
 
 .footer-message a:hover {
   color: rgba(128, 128, 128, 0.882); 
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
 }
