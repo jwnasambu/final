@@ -145,6 +145,15 @@ h4 {
  color: var(--Primary-900, #007A87);
 }
 
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.images > div {
+  margin-right: 10px; /* Adjust spacing between images */
+}
+
 /* footer style */
 footer {
   position: fixed;
