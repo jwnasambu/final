@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures the image is vertically centered */
+    margin: 0;
+}
+
+.profile-img {
+    text-align: center;
+}
+
+.profile-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* footer style */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1.25rem;
+  background: var(--Primary-900, #007A87);
+}
+
+.footer-message {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.footer-message a {
+  color: rgba(128, 128, 128, 0.882); 
+}
+
+.footer-message a:hover {
+  color: rgba(128, 128, 128, 0.882); 
+}
