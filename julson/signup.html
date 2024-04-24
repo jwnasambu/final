@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,22 +11,23 @@
 
     <title>SignUp</title>
 </head>
+
 <body>
     <div class="signup-container">
         <div class="signup-row">
             <div class="col-2">
                 <img src="/assets/images/nurse2.png" alt="Black-nurse" id="nurse">
-                            
-                    <div>
-                        <img src="/assets/images/Vector.png" alt="logo" id="log">
-                    </div>
+
+                <div>
+                    <img src="/assets/images/Vector.png" alt="logo" id="log">
+                </div>
             </div>
-            
+
             <div class="col-20">
                 <form id="signup-form" action="" class="form">
-    
+
                     <h1 class="sign_up_form">Sign up to get started</h1>
-    
+
                     <div class="input-1">
                         <div class="firstName">
                             <label for="firstName"><b>First Name</b></label>
@@ -36,31 +38,31 @@
                             <input type="text" id="surname" name="surname">
                         </div>
                     </div>
-    
+
                     <div class="email">
                         <label for="email"><b>Email</b></label>
                         <input type="email" id="email" name="email">
                     </div>
-    
+
                     <div class="input-2">
                         <div class="password">
                             <label for="password"><b>Password</b></label>
                             <input type="password" id="password" name="password">
                             <i class="far fa-eye-slash" id="togglePassword1"></i>
                         </div>
-    
+
                         <div class="confirmPassword">
                             <label for="confirmPassword"><b>Confirm Password</b></label>
                             <input type="password" id="confirmPassword" name="confirmPassword">
                             <i class="far fa-eye-slash" id="togglePassword2"></i>
                         </div>
                     </div>
-    
+
                     <div class="dateOfBirth">
                         <label for="dateOfBirth"><b>Date of Birth</b></label>
                         <input type="date" id="dateOfBirth" name="dateOfBirth">
                     </div>
-    
+
                     <div class="input-3">
                         <div class="Gender">
                             <label for="gender"><b>Gender</b></label>
@@ -70,14 +72,14 @@
                                 <option value="Female">
                                 <option value="Others">
                             </datalist>
-                       </div>
-                       
+                        </div>
+
                         <div class="Location">
                             <label for="location"><b>Location</b></label>
                             <input type="text" id="location" name="location">
                         </div>
                     </div>
-    
+
                     <div class="input-4">
                         <div class="Country code">
                             <label for="country code"><b>Country code</b></label>
@@ -88,18 +90,18 @@
                             <input type="text" id="mobileNumber" name="mobileNumber">
                         </div>
                     </div>
-    
+
                     <div class="vitals">
                         <div class="height">
                             <label for="height"><b>Height (cm)</b></label>
                             <input type="number" id="height" name="height" min="45" max="240" required>
                         </div>
-    
+
                         <div class="weight">
                             <label for="weight"><b>Weight (kgs)</b></label>
                             <input type="number" id="weight" name="weight" min="2.5" max="220" required>
                         </div>
-    
+
                         <div class="bloodType">
                             <label for="bloodType"><b>Blood Type</b></label>
                             <input list="bloodTypes" id="bloodTypeInput" name="bloodType" required>
@@ -114,17 +116,17 @@
                                 <option value="O-">
                             </datalist>
                         </div>
-    
+
                     </div>
-    
+
                     <div class="btn-signup">
                         <button type="submit">Sign Up</button>
                     </div>
-    
+
                     <div class="account-container">
                         Already have an account? <a href="./login.html" class="login-link">Log in</a>.
                     </div>
-    
+
                     <div class="horizontal-container">
                         <div>
                             <hr class="horizontal1">
@@ -136,25 +138,29 @@
                             <hr class="horizontal2">
                         </div>
                     </div>
-    
+
                     <div class="button-container">
-                        <div class="btn1">
-                            <img src="/assets/logos/flat-color-icons_google.svg" alt="Google Icon">
-                            <p>Login with Google</p>
-    
-                        </div>
-    
-                        <div class="btn2">
-                            <img src="/assets/logos/mdi_apple.svg" alt="Apple Icon">
-                            <p>Continue with Apple</p>
-                        </div>
+                        <a
+                            href="https://www.bing.com/search?q=google&cvid=33e2afd3f9574cbd9544daa8c53d1f0f&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQIxgnMgYIAhAuGEAyBggDEC4YQDIGCAQQLhhAMgYIBRAuGEAyBggGECMYJzIGCAcQLhhAMgYICBAuGEDSAQg0MzYxajBqOagCBLACAQ&FORM=ANAB01&PC=EDGEDB">
+                            <div class="btn1">
+                                <img src="/assets/logos/flat-color-icons_google.svg" alt="Google Icon">
+                                <p>Login with Google</p>
+                            </div>
+                        </a>
+
+                        <a
+                            href="https://www.bing.com/search?q=google&cvid=33e2afd3f9574cbd9544daa8c53d1f0f&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQIxgnMgYIAhAuGEAyBggDEC4YQDIGCAQQLhhAMgYIBRAuGEAyBggGECMYJzIGCAcQLhhAMgYICBAuGEDSAQg0MzYxajBqOagCBLACAQ&FORM=ANAB01&PC=EDGEDB">
+                            <div class="btn2">
+                                <img src="/assets/logos/mdi_apple.svg" alt="Apple Icon">
+                                <p>Continue with Apple</p>
+                            </div>
+                        </a>
                     </div>
-    
                 </form>
             </div>
         </div>
     </div>
-   
+
 
     <div>
         <footer>
@@ -165,7 +171,8 @@
             </div>
         </footer>
     </div>
- 
+
     <script src="signup.js"></script>
 </body>
+
 </html>

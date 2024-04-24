@@ -230,7 +230,7 @@ a {
   
 .btn1,
 .btn2 {
-  width: 15rem;
+  width: 10rem;
   height: 2rem;
   display: flex;
   flex-direction: row;
@@ -272,7 +272,7 @@ font-weight: 600;
 line-height: 20px; /* 142.857% */
 letter-spacing: 0.25px;
 }
-  
+
 /* footer style */
 footer {
   position: relative;

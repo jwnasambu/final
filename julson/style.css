@@ -247,6 +247,10 @@ input::placeholder {
   color: var(--Greys-1100, #3E3C3C);
 }
 
+.button-container a p {
+    text-decoration: none;
+}
+
 footer {
   position: fixed;
   bottom: 0;
