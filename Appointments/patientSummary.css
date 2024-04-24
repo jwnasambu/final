@@ -1,0 +1,286 @@
+body{
+    opacity: 0.6;
+    background: #D6D4D4;
+    margin: -5px 0 0 0;
+}
+/* Sidebar styling */
+.sidebar {
+    float: left;
+    min-width: 25%;
+    min-height: 800px;
+    background: #f5ffff; 
+  } 
+  .sidebar-bottom{
+    margin-top: 630px;
+  }
+  .sidebar header {
+    font-size: 18px;
+    text-align: center;
+    line-height: 160%;
+    user-select: none;
+    margin-bottom: 50px;
+  }
+   
+  .header-logo {
+    display: grid;
+    margin: 30px 0 0 50px;
+  }
+   
+  .sidebar ul a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    line-height: 160%;
+    font-size: 18px;
+    color: var(--Greys-1300, #201f1f);
+    padding: 5px 5px 5px 25px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition: 0.4s;
+    text-decoration: none;
+  }
+   
+  ul li:hover a {
+    padding-left: 50px;
+  }
+   
+  .active {
+    background: rgba(192, 253, 237, 1);
+  }
+   
+  .link:hover {
+    background: rgba(192, 253, 237, 1);
+  }
+  ul li{
+    list-style: none;
+    /* text-decoration: none; */
+  }
+   
+  .sidebar ul a img {
+    margin-right: 16px;
+  }
+  /* End of sidebar styling */
+  
+  /* Header */
+  .profile-header{
+    display: flex;
+    justify-content: space-between;
+    background: #FCFBF7;;
+    
+  }
+  .appointments>h1{
+    color: var(--Primary-900, #007A87);
+    margin: 55px 0 30px 50px;
+  
+  }
+  .profile{
+    display: flex;
+    gap: 20px;
+    margin: 55px 30px 0 50px;
+  }
+  .profile>img{
+    margin: -10px 10px 30px 0;
+  }
+  .name{
+    margin-top: -3px;
+  }
+  .notifications>a>img{
+    border-radius: 50%;
+    border: 1px solid #007A87;
+    margin: -7px 10px 30px 0;
+  }
+  .message{
+    z-index: 1;
+    width: 10px;
+    height: 10px;
+    margin: -60px 0 0 15px;
+    border-radius: 20px;
+    background-color: #B80944;
+  }
+  
+  /* About section */
+  .about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #201F1F;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    opacity: 0.6;
+    background: #D6D4D4;
+  }
+  .about-info>h1{
+    font-size: 34px;
+  }
+  .about-info{
+    text-align: center;
+    line-height:37px;
+  }
+  .picture>img{
+    margin: 50px 0 0 0;
+  }
+  .about-specialist{
+    text-align: center;
+    margin: 40px 100px 0 100px;
+    max-width: 650px;
+    color: var(--Greys-1100, #3E3C3C);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.5px;
+  }
+  
+  
+
+  /* select time */
+.select-time>h4{
+  text-align: center;
+}
+.time{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.time-button{
+  padding: 8px 55px;
+  border-radius: 10px;
+  border: 1px solid #E0DFDF;
+  background: #F5F4F4;
+  font-size: 14px;
+  margin: 20px 0 0 0;
+  
+}
+.time .morning{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.time .day-time{
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+  padding: 8px 80px;
+}
+.time-button:hover{
+  color: white;
+  background-color: #F26292;
+  transition-duration: 0.4s;
+}
+
+
+/* book now */
+
+.book-now{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0 0 0;
+}
+.book{
+  padding: 12px 250px;
+  border-radius: 10px;
+  border: none;
+  background-color: #0390A0;
+  color: white;
+}
+.call{
+  padding: 12px 250px;
+  border-radius: 10px;
+  border: 1px solid #F98DB1;
+  background-color: white;
+}
+
+
+
+/* contact us */
+.contact-us{
+  display: flex;
+  gap: 40px;
+  height: 200px;
+}
+.contact-container{
+  margin-top: 50px;
+}
+.medlink{
+  width: 120px;
+  height: 77px;
+  margin: 30px 0 10px 80px;
+}
+.para{
+  margin: 10px;
+  width: 250px;
+  margin: 0 0 0 30px;
+}
+.contact-us>h6{
+  text-align: center;
+}
+.buttons>button>a{
+  text-decoration: none;
+}
+.buttons>button{
+  width: 106px;
+  height: 48px;
+  padding: 7px;
+}
+.social-icons>*{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 30px;
+  width: 300px;
+}
+.social-icon>*{
+  display: flex;
+  margin: 50px 0 0 -5px;
+}
+.social-icon>p{
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 60px;
+  display: flex;
+  gap: 5px;
+    
+}
+.social-icons>h5{
+  width: 300px;
+  text-align: center;
+  margin: 70px 0 -30px 70px;
+} 
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 30px 0 -20px -50px;
+}
+.news{
+  margin-top: -10px;
+}
+.buttons{
+  margin-top: -8px;
+}
+.subscribe {
+  color: white;
+  background-color: black;
+  border: none;
+}
+.email{
+  background-color: grey;
+  color: black;
+  border: none;
+}
+
+
+/* footer */
+.copyright-protection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 122, 135, 1);
+  height: 90px;
+  width: 100%;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

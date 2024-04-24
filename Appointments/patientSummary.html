@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/appointment booking/patient-information.css">
+    <link rel="stylesheet" href="popup.css">
+    <title>Patient Information</title>
+</head>
+<body>
+  <div>
+   <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <header class="header-logo">
+      <img src="/assets/images/Vector (4).png" alt="medlink logo" width="118px" height="77px"/>
+    </header>
+    <ul>
+      <li>
+        <a href="/index.html" class="link"
+          ><img src="/assets/logos/Vector.svg" alt="" />Home</a
+        >
+      </li>
+      <li>
+        <a href="/appointment booking/in-person.html" class="link active"
+          ><img
+            src="/assets/logos/streamline_waiting-appointments-calendar.png"
+            alt=""
+          />Appointments</a
+        >
+      </li>
+      <li>
+        <a href="#" class="link"
+          ><img src="/assets/logos/map_pharmacy.png" alt="" />Pharmacy</a
+        >
+      </li>
+      <li>
+        <a href="#" class="link"
+          ><img src="/assets/logos/vaadin_records.png" alt="" />Records</a
+        >
+      </li>
+      <li>
+        <a href="#" class="link"
+          ><img
+            src="/assets/logos/ic_outline-payments.svg"
+            alt=""
+          />Payments</a
+        >
+      </li>
+      <li>
+        <a href="#" class="link"
+          ><img src="/assets/logos/ri_blogger-line.svg" alt="" />Blogs</a
+        >
+      </li>
+    </ul>
+  
+
+    <div class="sidebar-bottom">
+      <ul>
+        <li>
+          <a href="#" class="link"
+            ><img src="/assets/logos/Group.svg" alt="" />Help</a
+          >
+        </li>
+        <li>
+          <a href="#" class="link"
+            ><img
+              src="/assets/logos/ion_settings-outline.svg"
+              alt=""
+            />Settings</a
+          >
+        </li>
+        <li>
+          <a href="#" class="link"
+            ><img src="/assets/logos/ion_log-out-outline.svg" alt="" />Log
+            out</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--End of sidebar-->
+
+  <!-- header -->
+<section class="profile-header">
+  <div class="appointments">
+    <h1>Appointments</h1>
+  </div>
+  <div class="profile">
+      <img src="/assets/images/Frame 1349.png" alt="profile picture" height="40px" width="40px">
+      <h5 class="name">Emee Ebong</h5>
+    <div class="notifications">
+      <a href="">
+        <img src="/assets/logos/basil_notification-outline.svg" alt="notifications">
+        <div class="message"></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- About -->
+<section class="about">
+  <div class="picture">
+    <img src="/assets/logos/Ellipse 113.png" alt="">
+    <div class="about-info">
+      <h1>Dr. Susan Adeyemi</h1>
+      <h2>Gynaecologist</h2>
+      <h5>Safeway Hospital</h5>
+    </div>
+  </div>
+  <p class="about-specialist">
+    Dr. Adeyemi is an expert dedicated to providing comprehensive care, personalized treatment plans and compassionate service for all her patients. She is
+     passionate about women living longer and healthier lives by taking better care of their reproductive health.
+  </p>
+</section>
+
+<!-- creating pop up -->
+<div class="box" class="open-popup" id="popup">
+  <section class="pop-up">
+    <header class="popup-header">
+      <a href="/appointment booking/in-person.html">
+        <img src="/assets/logos/ion_chevron-back-outline.png" alt="back" class="go-back">
+      </a>
+      <div class="popup-heading">
+        <h1>Patient Information</h1>
+        <h5>Enter your information here</h5>
+      </div>
+      <a href="/appointment booking/in-person.html">
+        <img src="/assets/logos/carbon_close-outline.png" alt="close" class="close-popup">
+      </a>
+    </header>
+
+    <main class="patient-info">
+      <form>
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="fname">
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age">
+
+      </form>
+    </main>
+  </section>
+</div>
+
+
+
+<!-- Select time -->
+<section class="select-time">
+  <h4>Select Time</h4>
+  <div class="time">
+    <div class="morning">
+      <button id="myButton" class="time-button">9:00</button>
+      <button id="myButton" class="time-button">10:00</button>
+      <button id="myButton" class="time-button">12:30</button>
+    </div>
+    <div class="day-time">
+        <button id="myButton" class="time-button">1:45</button>
+        <button id="myButton" class="time-button">2:30</button>
+        <button id="myButton" class="time-button">3:15</button>
+    </div>
+  </div>
+
+  <div class="book-now">
+    <a href="/appointment booking/patient-information.html">
+      <button type="submit" class="book">Book Now</button>
+    </a>
+
+    <a href="">
+      <button class="call">Start a call</button>
+    </a>
+  </div>
+</section>
+
+<!-- Contact section -->
+  <section class="contact-us">
+    <div class="contact-container">
+        <img src="/assets/images/Vector (3).png" alt="black medlink logo" class="medlink">
+        <p class="para">Book appointments and manage your health records with ease.</p>
+    </div>
+    <div class="social-icons">
+        <h5 class="connect">Connect with us</h5>
+        <div class="social-icon">
+            <img src="/assets/logos/ic_sharp-facebook.svg" alt="Facebook icon" width="28px" height="28px">
+              <p>Facebook</p>
+            
+              <img src="/assets/logos/mage_instagram-circle.svg" alt="Instagram icon" width="28px" height="28px">
+              <p> Instagram</p>
+            
+              <img src="/assets/logos/ant-design_twitter-circle-filled.svg" alt="Twitter icon" width="28px" height="28px">
+              <p>Twitter</p>
+            
+              <img src="/assets/logos/entypo-social_linkedin-with-circle.svg" alt="LinkedIn icon" width="28px" height="28px">
+              <p>LinkedIn</p>
+        </div>
+    </div>
+    <div class="newsletter">
+        <h6>Newsletter</h6>
+        <p class="news">Stay up to date with the latest news on healthcare technology</p>
+        <div class="buttons">
+            <button class="email"><a href="" class="email">Email</a></button>
+            <button class="subscribe"><a href="" class="subscribe">Subscribe</a></button>
+        </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+  <div class="copyright-protection">
+    Copyright@Medlink - All Rights Reserved | Privacy Policy
+  </div>
+  </footer>
+
+
+<script src="/appointment booking/patient-information.js">
+</script>
+<script src="./patient-information.js"></script>
+</body>
+</html>
