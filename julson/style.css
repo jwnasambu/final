@@ -160,13 +160,13 @@ input::placeholder {
 .signup-link,
 .signup-link a {
   color: #060101cb;
-  font-size: 12px;
 }
    
 .signup-link a {
   color: var(--Secondary-900, #87002D);
   font-weight: 700;
   font-family: "DM Sans";
+  font-size: 14px;
 }
    
 .signup-link a:hover {
@@ -248,7 +248,7 @@ input::placeholder {
 }
 
 .button-container a p {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 footer {

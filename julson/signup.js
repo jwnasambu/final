@@ -87,28 +87,41 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        if (height < 45 || height > 240) {
-            alert("Height must be between 45 and 240 cm");
+        if (height < 45 || height > 240 || isNaN(height)) {
+            alert("Height must be a number between 45 and 240 cm");
             return;
         }
 
-         if (isNaN(height) || height < 45 || height > 240) {
-         alert("Height must be a number between 45 and 240 cm");
-         return;
-        }
-
-         if (isNaN(weight) || weight < 2.5 || weight > 220) {
-         alert("Weight must be a number between 2.5 and 220 kg");
-         return;
+        if (weight < 2.5 || weight > 220 || isNaN(weight)) {
+            alert("Weight must be a number between 2.5 and 220 kg");
+            return;
         }
 
         if (!isValidBloodType(bloodType)) {
-        alert('Please enter a valid blood type (A, B, AB, or O)');
-        return;
+            alert('Please enter a valid blood type (A, B, AB, or O)');
+            return;
         }
 
-        alert('Form submitted successfully');
-        });
+        // Store form data in local storage
+        var userData = {
+            firstName: firstName,
+            surname: surname,
+            email: email,
+            password: password,
+            dateOfBirth: dateOfBirth,
+            gender: gender,
+            location: location,
+            countryCode: countryCode,
+            mobileNumber: mobileNumber,
+            height: height,
+            weight: weight,
+            bloodType: bloodType
+        };
+        localStorage.setItem('userData', JSON.stringify(userData));
+       
+        // Show success message
+        showSuccessMessage();
+    });
 
     // Initialize intlTelInput
     var input = document.querySelector("#mobileNumber");
@@ -142,5 +155,11 @@ document.addEventListener('DOMContentLoaded', function () {
     function isValidBloodType(bloodType) {
         var validBloodTypes = ['A', 'B', 'AB', 'O'];
         return validBloodTypes.includes(bloodType.toUpperCase());
+    }
+
+    function showSuccessMessage() {
+        // Update form content to display success message or new form fields
+        var form = document.getElementById('signup-form');
+        form.innerHTML = '<h2>Signup successful!</h2><p>Thank you for signing up.</p><p>Feel free to continue using our services.</p>';
     }
 });

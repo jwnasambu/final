@@ -47,8 +47,8 @@ togglePassword.addEventListener("click", function () {
 // Simulated backend user validation
 function validateUser(email, password) {
     const users = [
-        { email: "jane@yahoo.com", password: "Admin123" },
-        { email: "user2@yahoo.com", password: "123Admin123" }
+        { email: "admin@yahoo.com", password: "Admin123" },
+        { email: "test@yahoo.com", password: "test123" }
     ];
 
     // Check if there's a user with the provided email and password

@@ -6,22 +6,12 @@
 }
 
 
-.row{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-    /*
-    align-items: center;
-    position: static;
-    width: 100%;*/
-  }
 /* wrapper style */
 .wrapper {
   display: flex;
   flex-direction: column;
   height: 100vh;
-
+}
 
 .signup-container{
   width:90%;
@@ -240,7 +230,7 @@ a {
   
 .btn1,
 .btn2 {
-  width: 10rem;
+  width: 15rem;
   height: 2rem;
   display: flex;
   flex-direction: row;
@@ -282,7 +272,7 @@ font-weight: 600;
 line-height: 20px; /* 142.857% */
 letter-spacing: 0.25px;
 }
-
+  
 /* footer style */
 footer {
   position: relative;
@@ -305,7 +295,8 @@ footer {
 .footer-message a {
   color: rgba(128, 128, 128, 0.882); 
 }
-
+  
 .footer-message a:hover {
   color: rgba(128, 128, 128, 0.882); 
 }
+   
