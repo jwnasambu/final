@@ -195,6 +195,10 @@ a {
   line-height: 20px;
   letter-spacing: 0.75px;
 }
+
+.a:hover {
+  color: var(--Primary-800, #0390A0);
+}
   
 /* horizontal style */
   .horizontal-container {
