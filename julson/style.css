@@ -171,6 +171,7 @@ input::placeholder {
    
 .signup-link a:hover {
   color: var(--Primary-800, #0390A0);
+  font-size: 14px;
 }
   
 /* horizontal style */
