@@ -6,12 +6,22 @@
 }
 
 
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    /*
+    align-items: center;
+    position: static;
+    width: 100%;*/
+  }
 /* wrapper style */
 .wrapper {
   display: flex;
   flex-direction: column;
   height: 100vh;
-}
+
 
 .signup-container{
   width:90%;
@@ -295,8 +305,7 @@ footer {
 .footer-message a {
   color: rgba(128, 128, 128, 0.882); 
 }
-  
+
 .footer-message a:hover {
   color: rgba(128, 128, 128, 0.882); 
 }
-   
